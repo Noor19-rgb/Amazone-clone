@@ -268,3 +268,329 @@ ul li{
  .copyright{
     padding-top: 25px;
  }
+
+/* Tablets */
+@media (max-width: 768px) {
+    nav {
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-logo {
+        width: 80px;
+        height: 40px;
+    }
+
+    .logo {
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .nav-search {
+        width: 100%;
+        flex: 1 1 100%;
+        order: 3;
+        min-width: 100px;
+    }
+
+    .nav-adress {
+        display: none;
+    }
+
+    .signin {
+        order: 1;
+    }
+
+    .return {
+        order: 2;
+    }
+
+    .nav-cart {
+        order: 4;
+    }
+
+    .panel {
+        height: auto;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .panel-opt {
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+
+    .panel-opt p {
+        display: inline-block;
+        margin: 0 6px;
+        font-size: 0.75rem;
+    }
+
+    .panel-all {
+        order: 1;
+    }
+
+    .panel-deals {
+        order: 3;
+        width: 100%;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .hero {
+        padding: 50px 20px;
+        min-height: 250px;
+    }
+
+    .hero-content {
+        padding: 20px 25px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-btn {
+        padding: 10px 28px;
+        font-size: 0.9rem;
+    }
+
+    section {
+        gap: 20px 15px;
+        margin: 30px 0;
+    }
+
+    article {
+        flex: 1 1 160px;
+        max-width: 200px;
+        min-width: 140px;
+        padding: 14px 12px 18px;
+    }
+
+    article h3 {
+        font-size: 1rem;
+    }
+
+    article .price {
+        font-size: 1.1rem;
+    }
+
+    article .add-btn {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+        max-width: 120px;
+    }
+
+    .foot-panel2 {
+        padding: 15px 10px;
+        gap: 20px;
+    }
+
+    ul {
+        min-width: 120px;
+        flex: 1 1 40%;
+    }
+
+    ul p {
+        font-size: 0.95rem;
+    }
+
+    ul li {
+        font-size: 0.7rem;
+    }
+
+    .foot-panel4 {
+        font-size: 0.6rem;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    nav {
+        gap: 6px;
+        padding: 8px 5px;
+    }
+
+    .nav-logo {
+        width: 60px;
+        height: 35px;
+    }
+
+    .logo {
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .nav-logo i {
+        font-size: 1.5rem;
+    }
+
+    .signin span {
+        font-size: 0.6rem;
+    }
+
+    .signin .nav-second {
+        font-size: 0.7rem;
+    }
+
+    .return span {
+        font-size: 0.6rem;
+    }
+
+    .return .nav-second {
+        font-size: 0.7rem;
+    }
+
+    .nav-cart {
+        font-size: 0.8rem;
+    }
+
+    .nav-cart i {
+        font-size: 22px;
+    }
+
+    .nav-search {
+        height: 35px;
+        min-width: 80px;
+    }
+
+    .search-select {
+        width: 40px;
+        font-size: 0.7rem;
+    }
+
+    .search-input {
+        font-size: 0.85rem;
+    }
+
+    .nav-search button {
+        width: 38px;
+        font-size: 1rem;
+    }
+
+    .panel {
+        padding: 6px 5px;
+        gap: 4px;
+    }
+
+    .panel-opt p {
+        font-size: 0.65rem;
+        margin: 0 4px;
+    }
+
+    .panel-deals {
+        font-size: 0.7rem;
+    }
+
+    .hero {
+        padding: 30px 15px;
+        min-height: 200px;
+    }
+
+    .hero-content {
+        padding: 15px 18px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.4rem;
+    }
+
+    .hero-content p {
+        font-size: 0.85rem;
+    }
+
+    .hero-btn {
+        padding: 8px 20px;
+        font-size: 0.8rem;
+    }
+
+    section {
+        gap: 15px 10px;
+        margin: 20px 0 30px;
+        padding: 0 10px;
+    }
+
+    article {
+        flex: 1 1 130px;
+        max-width: 160px;
+        min-width: 110px;
+        padding: 12px 10px 14px;
+        border-radius: 18px;
+    }
+
+    article img {
+        max-height: 120px;
+        padding: 4px;
+    }
+
+    article h3 {
+        font-size: 0.85rem;
+        margin: 4px 0 2px;
+    }
+
+    article .price {
+        font-size: 0.95rem;
+        margin: 4px 0;
+    }
+
+    article .add-btn {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+        max-width: 100px;
+        border-radius: 30px;
+    }
+
+    .foot-panel {
+        height: 40px;
+        font-size: 0.85rem;
+    }
+
+    .foot-panel2 {
+        padding: 10px 5px;
+        gap: 15px;
+    }
+
+    ul {
+        min-width: 100px;
+        flex: 1 1 45%;
+        margin-top: 10px;
+    }
+
+    ul p {
+        font-size: 0.85rem;
+    }
+
+    ul li {
+        font-size: 0.65rem;
+        margin-top: 6px;
+    }
+
+    .foot-panel3 {
+        height: 55px;
+    }
+
+    .footer-logo {
+        height: 40px;
+        width: 80px;
+        font-size: 1.1rem;
+    }
+
+    .foot-panel4 {
+        padding: 12px 8px;
+        font-size: 0.55rem;
+    }
+
+    .pages {
+        gap: 6px;
+    }
+
+    .copyright {
+        padding-top: 8px;
+    }
+}
